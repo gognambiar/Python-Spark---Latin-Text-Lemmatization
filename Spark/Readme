@@ -1,0 +1,46 @@
+CSE 574 - Lab5 Excercise
+
+Project By - 
+Ashutosh Jainvi (50207263)
+Gautam Othayoth Ganapthiyadan(50208358)
+
+The Lab5 folder contains the following files - 
+[Lab5, what to do : 1]
+1.vignette.py - Vignette notebook
+
+[Lab5, what to do : 2]
+2.Activity_1_digram.py - Digram word cooccurence
+3.Activity_1_trigram.py - Trigram word cooccurence
+4.new_lemmatizer.csv
+5.Report.ipynb - Report with comparison of Digram and Trigram running times and inference based on the analysis
+6.output_digram
+7.output_trigram
+8.Readme
+
+Sample outputs - 
+1. Output for digram cooccurence for 2 latin files - output_digram
+1. Output for trigram cooccurence for 2 latin files - output_trigram
+
+Output format - 
+Digram Word1|Word2
+'word1|word2', '<lineid1><lineid2>....etc'
+
+Trigram Word1|Word2
+'word1|word2|word3', '<lineid1><lineid2>....etc'
+
+
+Commands to run - 
+For Vignette - time spark-submit vignette.py
+For Activity_1_digram.py - rm -rf output/ && time spark-submit --master local[*] Activity_1_digram.py
+For Activity_1_trigram.py - rm -rf output/ && time spark-submit --master local[*] Activity_1_trigram.py
+
+
+
+
+
+
+
+
+
+
+
